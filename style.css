@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "CookieRun";
+  src: url("assets/fonts/CookieRun Regular.otf") format("opentype");
+  font-display: swap;
+}
+
+body {
+  font-family: "CookieRun", sans-serif;
+}
