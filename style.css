@@ -1,7 +1,6 @@
-/* 쿠키런 폰트 적용 */
 @font-face {
   font-family: "CookieRun";
-  src: url("assets/fonts/CookieRun Regular.otf") format("opentype");
+  src: url("/Yongintail/assets/fonts/CookieRun Regular.otf") format("opentype");
   font-display: swap;
 }
 
