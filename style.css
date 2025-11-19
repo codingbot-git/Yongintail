@@ -1,9 +1,30 @@
+/* 쿠키런 폰트 적용 */
 @font-face {
   font-family: "CookieRun";
   src: url("assets/fonts/CookieRun Regular.otf") format("opentype");
   font-display: swap;
 }
 
+/* 전체 사이트 기본 설정 */
 body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* 검정 배경 */
+  color: white; /* 글자 흰색 */
   font-family: "CookieRun", sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  opacity: 0.9;
 }
